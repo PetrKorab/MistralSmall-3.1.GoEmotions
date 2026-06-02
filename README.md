@@ -4,7 +4,7 @@
 [![Language](https://img.shields.io/badge/language-English-blue)]()
 [![Dataset](https://img.shields.io/badge/dataset-GoEmotions-green)](https://huggingface.co/datasets/go_emotions)
 
-Multi-label emotion classifier for short English text — detects up to **28 fine-grained emotions** simultaneously. Fine-tuned on [GoEmotions](https://huggingface.co/datasets/go_emotions) using [Mistral Small 3.1 24B](https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503) with LoRA. 26 of 28 emotion labels achieve F1 > 0.50 on the held-out test set.
+Multi-label emotion classifier for English text — detects up to **28 fine-grained emotions** simultaneously. Fine-tuned on [GoEmotions](https://huggingface.co/datasets/go_emotions) using [Mistral Small 3.1 24B](https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503) with LoRA. 26 of 28 emotion labels achieve F1 > 0.50 on the held-out test set.
 
 ---
 
