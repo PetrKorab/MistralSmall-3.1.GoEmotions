@@ -111,8 +111,8 @@ safe = [{k: v for k, v in pred.items() if k not in UNRELIABLE} for pred in clf.p
 
 | File | Purpose |
 |---|---|
-| `funetuning_unsloth.ipynb` | Full training pipeline — data loading, model setup, LoRA fine-tuning, evaluation |
-| `inference_test.ipynb` | Local inference tests — single text, batch, threshold comparison, label filtering |
+| `funetuning.ipynb` | Full training pipeline — data loading, model setup, LoRA fine-tuning, evaluation |
+| `inference.ipynb` | Local inference tests — single text, batch, threshold comparison, label filtering |
 | `inference_hf.ipynb` | Download from Hugging Face and run inference (no local model dir needed) 
 
 ---
