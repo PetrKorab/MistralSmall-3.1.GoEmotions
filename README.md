@@ -137,7 +137,7 @@ GPU with **48 GB VRAM** required for 4-bit inference. CPU inference is not pract
 ## Links
 
 - **Model on Hugging Face:** [TextMiningStories/Mistral-Small-3.1-24B-goemotions](https://huggingface.co/TextMiningStories/Mistral-Small-3.1-24B-goemotions)
-- **Training dataset:** [google-research-datasets/go_emotions](https://huggingface.co/datasets/go_emotions)
+- **Training dataset:** [https://huggingface.co/datasets/go_emotions](https://www.tensorflow.org/datasets/catalog/goemotions)
 - **Base model:** [mistralai/Mistral-Small-3.1-24B-Instruct-2503](https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503)
 
 ---
