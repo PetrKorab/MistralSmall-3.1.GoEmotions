@@ -108,7 +108,7 @@ Evaluated on **7,891 held-out English samples** at a classification threshold of
 | sadness | 0.871 | approval | 0.497 |
 | excitement | 0.877 | neutral | 0.497 |
 
-### Highlights
+### Evaluation results
 
 - **17 of 28 emotion labels** achieve **F1 ≥ 0.7**.
 - Strongest categories include **fear**, **desire**, **caring**, **disgust**, **realization**, **gratitude**, **excitement**, **sadness**, **surprise**, **disappointment**, **confusion**, **optimism**, **joy**, **love**, **amusement**, **anger**, and **curiosity**
