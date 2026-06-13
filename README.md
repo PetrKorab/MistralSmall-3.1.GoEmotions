@@ -93,7 +93,7 @@ Evaluated on **7,891 held-out English samples** at a classification threshold of
 
 | Emotion | F1 | Emotion | F1 |
 |----------|---------:|----------|---------:|
-| relief | **1.000** | surprise | 0.851 |
+| relief | 1.000 | surprise | 0.851 |
 | embarrassment | 0.988 | disappointment | 0.847 |
 | nervousness | 0.977 | confusion | 0.790 |
 | pride | 0.968 | optimism | 0.788 |
@@ -111,9 +111,9 @@ Evaluated on **7,891 held-out English samples** at a classification threshold of
 ### Highlights
 
 - **17 of 28 emotion labels** achieve **F1 ≥ 0.7**.
-- Strongest categories include 
-- High-support classes also perform strongly, including .
-- 
+- Strongest categories include **fear**, **desire**, **caring**, **disgust**, **realization**, **gratitude**, **excitement**, **sadness**, **surprise**, **disappointment**, **confusion**, **optimism**, **joy**, **love**, **amusement**, **anger**, and **curiosity**
+- High-support classes performing with 1> 0.6: **admiration**, **disapproval**, **annoyance**
+- **relief**, **embarrassment**, **nervousness**, **pride**, **remorse**, and **grief** have fewer than 100 positive examples in the test set. Their very high F1 scores are likely inflated by the small sample size and should not be taken as evidence of reliable generalisation. These labels are not recommended for production inference without additional out-of-distribution evaluation.
 - **approval** and **neutral** fall below **F1 = 0.50**, reflecting substantial semantic overlap with neighboring emotion categories.
 
 ## Warning — Low-Support Labels
