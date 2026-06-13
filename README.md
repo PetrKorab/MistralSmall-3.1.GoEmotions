@@ -77,20 +77,44 @@ Raw text  →  USE v4 (512-dim)  →  MLP (512→2560→5120)
 
 ## Results
 
-Evaluated on 7,891 held-out English samples at threshold = 0.50.
+Evaluated on **7,891 held-out English samples** at a classification threshold of **0.50**.
 
-| Emotion | F1 | | Emotion | F1 |
-|---|---|---|---|---|
-| desire | 0.929 | | sadness | 0.871 |
-| caring | 0.894 | | surprise | 0.851 |
-| disgust | 0.886 | | disappointment | 0.847 |
-| realization | 0.881 | | confusion | 0.790 |
-| gratitude | 0.880 | | optimism | 0.788 |
-| excitement | 0.877 | | joy | 0.779 |
+### Overall Performance
 
-26 of 28 labels exceed F1 = 0.50. Only **approval** and **neutral** fall below due to heavy semantic overlap with other classes.
+| Metric | Score |
+|----------|---------:|
+| Accuracy | 0.642 |
+| Micro F1 | 0.753 |
+| Macro F1 | 0.822 |
+| Macro Precision | 0.830 |
+| Macro Recall | 0.818 |
 
----
+### Per-Emotion Performance (F1)
+
+| Emotion | F1 | Emotion | F1 |
+|----------|---------:|----------|---------:|
+| relief | **1.000** | surprise | 0.851 |
+| embarrassment | 0.988 | disappointment | 0.847 |
+| nervousness | 0.977 | confusion | 0.790 |
+| pride | 0.968 | optimism | 0.788 |
+| fear | 0.939 | joy | 0.779 |
+| remorse | 0.935 | love | 0.766 |
+| desire | 0.929 | amusement | 0.761 |
+| grief | 0.898 | anger | 0.740 |
+| caring | 0.894 | curiosity | 0.732 |
+| disgust | 0.886 | admiration | 0.684 |
+| realization | 0.881 | disapproval | 0.645 |
+| gratitude | 0.880 | annoyance | 0.615 |
+| sadness | 0.871 | approval | 0.497 |
+| excitement | 0.877 | neutral | 0.497 |
+
+### Highlights
+
+- **17 of 28 emotion labels** achieve **F1 ≥ 0.7**.
+- Strongest categories include 
+- High-support classes also perform strongly, including .
+- 
+- **approval** and **neutral** fall below **F1 = 0.50**, reflecting substantial semantic overlap with neighboring emotion categories.
 
 ## Warning — Low-Support Labels
 
