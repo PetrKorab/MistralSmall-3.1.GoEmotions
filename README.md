@@ -116,7 +116,7 @@ Evaluated on **7,891 held-out English samples** at a classification threshold of
 - **relief**, **embarrassment**, **nervousness**, **pride**, **remorse**, and **grief** have fewer than 100 positive examples in the test set. Their very high F1 scores are likely inflated by the small sample size and should not be taken as evidence of reliable generalisation. These labels are not recommended for production inference without additional out-of-distribution evaluation.
 - **approval** and **neutral** fall below **F1 = 0.50**, reflecting substantial semantic overlap with neighboring emotion categories.
 
-## Warning — Low-Support Labels
+### Warning — Low-Support Labels
 
 > The following 6 labels each have **fewer than 100 positive test samples**. Their high F1 scores are likely inflated by the small sample size and are **not reliable for production use**:
 >
