@@ -173,14 +173,12 @@ If you use this model, please cite the model, training data, and the base model:
 **Mistral-Small-3.1-24B-goemotions**
 
 ```bibtex
-
 @misc{korab2026mistralsmallgoemotions,
   title     = {Mistral-Small-3.1-24B-GoEmotions: Multilabel emotion recognition for english text},
   author    = {Petr Korab},
   year      = {2026},
   url       = {https://huggingface.co/TextMiningStories/Mistral-Small-3.1-24B-goemotions},
 }
-
 ```
 
 **GoEmotions** dataset
