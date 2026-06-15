@@ -168,16 +168,25 @@ GPU with **48 GB VRAM** required for 4-bit inference. CPU inference is not pract
 
 ## Citation
 
-If you are using this model, please reference these:
+
+## Citation
+
+If you use this model, please cite the model, training data, and the base model:
+
+**Mistral-Small-3.1-24B-goemotions**
 
 ```bibtex
-@inproceedings{korab2026mistralsmallgoemotions,
+
+@misc{korab2026mistralsmallgoemotions,
   title     = {Mistral-Small-3.1-24B-GoEmotions: Multilabel emotion recognition for english text},
-  author    = {Korab},
-  booktitle = {Hugging Face models},
+  author    = {Petr Korab},
   year      = {2026},
+  url       = {https://huggingface.co/TextMiningStories/Mistral-Small-3.1-24B-goemotions},
 }
+
 ```
+
+**GoEmotions** dataset
 
 ```bibtex
 @inproceedings{demszky2020goemotions,
@@ -188,5 +197,16 @@ If you are using this model, please reference these:
                for Computational Linguistics},
   year      = {2020},
   pages     = {4040--4054},
+}
+```
+
+**Mistral Small 3.1**
+
+```bibtex
+@misc{mistral2025small31,
+  title  = {Mistral Small 3.1},
+  author = {Mistral AI},
+  year   = {2025},
+  url    = {https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503},
 }
 ```
