@@ -168,9 +168,6 @@ GPU with **48 GB VRAM** required for 4-bit inference. CPU inference is not pract
 
 ## Citation
 
-
-## Citation
-
 If you use this model, please cite the model, training data, and the base model:
 
 **Mistral-Small-3.1-24B-goemotions**
